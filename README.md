@@ -50,7 +50,7 @@ data |>
 
 The bar height and maximum bar width can be tweaked with the "height" and "width" parameters:
 
-```
+```R
 data |> 
   ggplot(aes(x, y)) + 
   geom_violin_discrete(width = 0.5, height = 1)
